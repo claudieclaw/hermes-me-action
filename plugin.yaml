@@ -1,0 +1,8 @@
+name: me-action
+version: "0.1.0"
+description: "Interpret /me as an action by the message's original sender."
+requires_hermes: ">=0.23.3"
+license: MIT
+homepage: https://github.com/claudieclaw/hermes-me-action
+provides_hooks:
+  - pre_gateway_dispatch
